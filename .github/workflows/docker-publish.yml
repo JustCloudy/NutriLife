@@ -31,7 +31,4 @@ jobs:
           tags: |
             ruhetina/nutrilife-api_repozitorij:latest
             ruhetina/nutrilife-api_repozitorij:${{ github.sha }}
-         tvoje_pravo_uporabnisko_ime/nutrilife-api_repozitorij:latest
-         tvoje_pravo_uporabnisko_ime/nutrilife-api_repozitorij:${{ github.sha }}
-            hribar/nutrilife-api_repozitorij:${{ github.sha }}
 
