@@ -1,2 +1,1 @@
- 
- 
+Test avtomatizacije GitHub Actions-Hal
