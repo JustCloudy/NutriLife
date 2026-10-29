@@ -29,5 +29,5 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            anajsadar/nutrilife-api_repozitorij:latest
-            anajsadar/nutrilife-api_repozitorij:${{ github.sha }}
+            anajsadar/nutrilife:latest
+            anajsadar/nutrilife:${{ github.sha }}
