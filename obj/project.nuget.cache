@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Q5mTgDmWDoo=",
+  "dgSpecHash": "mBpr4BYmXcI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\hriba\\NutriLife\\NutriLife.Api\\NutriLife.Api.csproj",
+  "projectFilePath": "/home/anaj/Documents/šola/drugi_letnik/rgis/NutriLife/NutriLife.Api.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\hriba\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.13\\microsoft.aspnetcore.openapi.10.0.13.nupkg.sha512",
-    "C:\\Users\\hriba\\.nuget\\packages\\microsoft.openapi\\2.12.2\\microsoft.openapi.2.12.2.nupkg.sha512"
+    "/home/anaj/.nuget/packages/microsoft.aspnetcore.openapi/10.0.13/microsoft.aspnetcore.openapi.10.0.13.nupkg.sha512",
+    "/home/anaj/.nuget/packages/microsoft.openapi/2.12.2/microsoft.openapi.2.12.2.nupkg.sha512",
+    "/home/anaj/.nuget/packages/swashbuckle.aspnetcore.swaggerui/11.0.1/swashbuckle.aspnetcore.swaggerui.11.0.1.nupkg.sha512"
   ],
   "logs": []
 }

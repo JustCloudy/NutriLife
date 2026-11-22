@@ -8,6 +8,8 @@ builder.Services.AddOpenApi();
 builder.Services.AddSingleton<AuthService>();
 builder.Services.AddSingleton<WaterService>();
 builder.Services.AddSingleton<WeightService>();
+builder.Services.AddSingleton<ReminderService>();
+builder.Services.AddSingleton<ShoppingService>();
 
 var app = builder.Build();
 
@@ -148,6 +150,8 @@ authGroup.MapGet("/me", (HttpRequest httpRequest, AuthService authService) =>
 
 app.MapWaterEndpoints();
 app.MapWeightEndpoints();
+app.MapReminderEndpoints();
+app.MapShoppingEndpoints();
 
 app.Run();
 
