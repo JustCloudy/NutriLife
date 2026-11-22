@@ -6,6 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddOpenApi();
 builder.Services.AddSingleton<AuthService>();
+builder.Services.AddSingleton<WaterService>();
 
 var app = builder.Build();
 
@@ -143,6 +144,8 @@ authGroup.MapGet("/me", (HttpRequest httpRequest, AuthService authService) =>
 })
 .WithName("GetCurrentUser")
 .WithSummary("Podatki trenutno prijavljenega uporabnika");
+
+app.MapWaterEndpoints();
 
 app.Run();
 
