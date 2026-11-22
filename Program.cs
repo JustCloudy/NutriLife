@@ -4,6 +4,8 @@ builder.Services.AddOpenApi();
 builder.Services.AddSingleton<AuthService>();
 builder.Services.AddSingleton<WaterService>();
 builder.Services.AddSingleton<WeightService>();
+builder.Services.AddSingleton<ReminderService>();
+builder.Services.AddSingleton<ShoppingService>();
 
 var app = builder.Build();
 
@@ -40,6 +42,8 @@ app.MapGet("/weatherforecast", () =>
 app.MapAuthEndpoints();
 app.MapWaterEndpoints();
 app.MapWeightEndpoints();
+app.MapReminderEndpoints();
+app.MapShoppingEndpoints();
 
 app.Run();
 

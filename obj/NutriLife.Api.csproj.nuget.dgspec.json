@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hriba\\NutriLife\\NutriLife.Api\\NutriLife.Api.csproj": {}
+    "/home/anaj/Documents/šola/drugi_letnik/rgis/NutriLife/NutriLife.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hriba\\NutriLife\\NutriLife.Api\\NutriLife.Api.csproj": {
+    "/home/anaj/Documents/šola/drugi_letnik/rgis/NutriLife/NutriLife.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hriba\\NutriLife\\NutriLife.Api\\NutriLife.Api.csproj",
+        "projectUniqueName": "/home/anaj/Documents/šola/drugi_letnik/rgis/NutriLife/NutriLife.Api.csproj",
         "projectName": "NutriLife.Api",
-        "projectPath": "C:\\Users\\hriba\\NutriLife\\NutriLife.Api\\NutriLife.Api.csproj",
-        "packagesPath": "C:\\Users\\hriba\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hriba\\NutriLife\\NutriLife.Api\\obj\\",
+        "projectPath": "/home/anaj/Documents/šola/drugi_letnik/rgis/NutriLife/NutriLife.Api.csproj",
+        "packagesPath": "/home/anaj/.nuget/packages/",
+        "outputPath": "/home/anaj/Documents/šola/drugi_letnik/rgis/NutriLife/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\hriba\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/anaj/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -49,6 +49,10 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[10.0.13, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[11.0.1, )"
             }
           },
           "imports": [
@@ -70,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.402/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/home/anaj/.dotnet/sdk/10.0.404/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
